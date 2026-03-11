@@ -1,11 +1,14 @@
 .benefits-section {
+  padding: 64px 0px;
+  margin: 0 auto;
+}
+
+.benefits-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 32px;
-  max-width: 375px;
-  padding: 64px 20px;
 }
 
 .benefits-title {
