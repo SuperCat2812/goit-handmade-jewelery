@@ -1,0 +1,83 @@
+.hero-container {
+  background-image:
+    radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/hero/hero-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  padding-bottom: 152px;
+  margin: 0 auto;
+  @media screen and (min-resolution: 192dpi) {
+    background-image:
+      radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/images/hero/hero-mob@2x.jpg);
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    background-image:
+      radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/images/hero/hero-tab.jpg);
+    @media screen and (min-resolution: 192dpi) {
+      background-image:
+        radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(/images/hero/hero-tab@2x.jpg);
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    background-image:
+      radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/images/hero/hero-desk.jpg);
+    @media screen and (min-resolution: 192dpi) {
+      background-image:
+        radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(/images/hero/hero-desk@2x.jpg);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-right: 96px;
+    padding-bottom: 435px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-top: 224px;
+    padding-right: 736px;
+    padding-bottom: 360px;
+  }
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+  color: #fff;
+  font-weight: 400;
+  @media screen and (min-width: 768px) {
+    max-width: 550px;
+  }
+}
+
+.hero-title {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.hero-order-btn {
+  display: block;
+
+  @media screen and (min-width: 768px) {
+    width: 217px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 192px;
+  }
+}
