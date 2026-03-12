@@ -101,16 +101,13 @@
 }
 
 .about_item--nature::before {
-  mask-image: url(../icons.svg#leaf);
-  -webkit-mask-image: url(../icons.svg#leaf);
+  mask-image: url(../images/icons/leaf.svg);
 }
 
 .about_item--love::before {
-  mask-image: url(../icons.svg#hand);
-  -webkit-mask-image: url(../icons.svg#hand);
+  mask-image: url(../images/icons/heart.svg);
 }
 
 .about_item--story::before {
-  mask-image: url(../icons.svg#story);
-  -webkit-mask-image: url(../icons.svg#story);
+  mask-image: url(../images/icons/story.svg);
 }
