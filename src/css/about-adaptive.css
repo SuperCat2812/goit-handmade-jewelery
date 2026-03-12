@@ -1,0 +1,81 @@
+/* ================================================
+   ABOUT SECTION  –  TABLET (≥ 768px)
+   ================================================ */
+
+@media (min-width: 768px) {
+  .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-width: unset;
+  }
+
+  .about_container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .about_image {
+    height: 380px;
+  }
+
+  .about_content {
+    padding-top: 40px;
+  }
+
+  .about_title {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .about_text {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .about_item {
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+}
+
+/* ================================================
+   ABOUT SECTION  –  DESKTOP (≥ 1440px)
+   ================================================ */
+
+@media (min-width: 1440px) {
+  .about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .about_container {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .about_media {
+    flex-shrink: 0;
+    width: 50%;
+  }
+
+  .about_image {
+    height: 520px;
+  }
+
+  .about_content {
+    margin-left: 60px;
+    padding-top: 0;
+  }
+
+  .about_title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .about_text {
+    margin-bottom: 32px;
+  }
+}
