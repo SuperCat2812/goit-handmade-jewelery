@@ -8,6 +8,12 @@
   row-gap: 40px;
 }
 
+@media (min-width: 768px) {
+  .gallery-container {
+    row-gap: 80px;
+  }
+}
+
 .wrapper-text {
   display: flex;
   flex-direction: column;
@@ -26,12 +32,6 @@
 .gallery-paragraph {
   font-size: 18px;
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  .gallery-paragraph {
-    margin-bottom: 80px;
-  }
 }
 
 .gallery-block {
